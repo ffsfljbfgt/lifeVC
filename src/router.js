@@ -7,6 +7,7 @@ import DetailPage from './routes/DetailPage/DetailPage';
 import CartPage from './routes/CartPage/CartPage';
 import UserPage from './routes/UserPage/UserPage';
 import CategoryPage from './routes/CategoryPage/CategoryPage';
+import list from './routes/List/List';
 
 
 function RouterConfig({ history }) {
@@ -21,6 +22,7 @@ function RouterConfig({ history }) {
         <Route path='/cart' component={CartPage}/>
         <Route path='/user' component={UserPage}/>
         <Route path='/category' component={CategoryPage}/>
+        <Route path='/list' component={list}/>
       </Switch>
     </Router>
   );
