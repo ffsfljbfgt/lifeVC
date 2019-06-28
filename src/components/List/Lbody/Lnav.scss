@@ -1,0 +1,73 @@
+.wrapshelfnavs[data-v-2221d056] {
+    width: 100%;
+    position: fixed;
+    top: 45px;
+    z-index: 10;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+.lifesort {
+    padding: 5px 2%;
+    background: #fff;
+    border-bottom: 1px solid #f2f2f2;
+    margin: 0;
+    text-align: center;
+}
+.lifesort li {
+    float: left;
+    width: 33.33333%;
+    height: 36px;
+    line-height: 36px;
+}
+.lifesort li a {
+    /* display: block; */
+    /* position: relative; */
+    height: 13px;
+    line-height: 13px;
+    /* border-right: 1px solid #f2f2f2; */
+    text-align: center;
+    margin-top: 7px;
+    font-size:13px;;
+    color: #666;
+}
+.lifesort li:last-child a {
+    border-right: none;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.lifesort li a {
+    /* display: block; */
+    /* position: relative; */
+    height: 13px;
+    line-height: 13px;
+    /* border-right: 1px solid #f2f2f2; */
+    text-align: center;
+    margin-top: 9px;
+    font-size: 13px;
+    color: #666;
+}
+.lifesort li a em {
+    padding-right: 12px;
+    text-decoration: none
+}
+.lifesort a i {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    position: relative;
+}
+.lifesort{
+    overflow: hidden;
+}
+.shelfitem {
+    width: 96%;
+    border: 1px solid #ddd;
+    margin: 24px auto 0;
+}
+.mainbodyshelf{
+    background-color: #ddd;
+}

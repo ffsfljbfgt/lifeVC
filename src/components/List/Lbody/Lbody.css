@@ -1,0 +1,122 @@
+.shelf-item .item-pic {
+    width: 100%;
+    display: block;
+    vertical-align: top;
+    margin: 0 auto;
+    position: static;
+}
+.mainbodyshelf {
+    margin-top: 100px;
+}
+.wrapshelf {
+    width: 100%;
+    margin: 84px auto 24px;
+    padding: 12px 0 0;
+}
+.toolsOnly {
+    padding-bottom: 60px!important;
+}
+.shelfitem {
+    width: 96%;
+    border: 1px solid #ddd;
+    margin:24px auto 0;
+}
+.shelfitem .item-pic-bx {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.itemstatusempty {
+    width: 84px;
+    height: 84px;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 84px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -48px;
+    margin-left: -40px;
+}
+.shelfitem .itempanel {
+    width: 100%;
+    background: #fff;
+    color: #333;
+    padding-bottom: 3.6px;
+}
+.shelfitem .itempanel, .shelfitem .profile {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 30px;
+}
+.shelfitem .itempanel .itemprice, .shelfitem .itempanel .title {
+    width: 94%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.shelfitem .itempanel .title {
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    line-height: 21px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 6px;
+}
+.shelfitem .itempanel .itemprice, .shelfitem .itempanel .title {
+    width: 94%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.shelfitem .itempanel .pricecont {
+    min-width: 68%;
+    overflow: hidden;
+    float: left;
+    line-height: 14px;
+    margin-top: 3px;
+}
+.shelfitem .itempanel .acttag {
+    background-color: #fff000;
+}
+.shelfitem .itempanel .originalprice {
+    color: #ccc;
+    text-decoration: line-through;
+}
+.shelfitem .itempanel .itemcomment {
+    float: right;
+    text-align: right;
+    color: #999;
+}
+.shelfitem .itempanel {
+    width: 100%;
+    background: #fff;
+    color: #333;
+    padding-bottom: 3px;
+}
+.shelfitem .itempanel, .shelfitem .profile {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 30px;
+}
+.shelfitem .itempanel .acttagred, .shelfitem .itempanel .promolable {
+    background-color: #c00;
+    color: #fff;
+}
+shelfitem .itempanel .acttag, .shelfitem .itempanel .acttagred, .shelfitem .itempanel .promolable {
+    display: inline-block;
+    background-color: #c00;
+    padding: 1px 3px;
+}
+.shelfitem .itempanel, .shelfitem .profile {
+    overflow: hidden;
+    font-size: 14px;
+}
+img{
+    width: 343px;
+}

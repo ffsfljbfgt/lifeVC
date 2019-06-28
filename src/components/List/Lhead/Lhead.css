@@ -1,0 +1,46 @@
+header {
+    padding: 0;
+    width: 100%;
+    background: #89be48;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    min-width: 320px;
+    max-width: 768px;
+    margin: auto;
+   
+}
+ .headercontent {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.btnback {
+    width: 10%;
+    height:38px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.HeaderTitle {
+    margin: 0 auto;
+    line-height: 48px;
+    font-size:24px;
+    text-align: center;
+    color: #fff;
+    width: 80%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+}
+.leftbackimg {
+    width: 12px;
+    height: 26px;
+    display: block;
+    float: left;
+    background: url(../../../assets/img/下载.png) no-repeat;
+    position: absolute;
+    left: 30%;
+    top: 7.2px;
+}
