@@ -1,0 +1,19 @@
+
+footer{
+    z-index:2;
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background: #fff;
+    .common{
+        width:20%;
+        img{width:20px;height: 20px;}
+    }
+    .common:nth-child(1){border-right: 1px solid #ccc;}
+    .buy{width:28%;line-height: 40px;background-color: rgb(0, 157, 66);font-weight: bold;color: #fff;border-radius: 5px; margin-right:10px; }
+    .cart{width:32%;line-height: 40px;background-color: rgb(137, 190, 72);font-weight: bold;color: #fff;border-radius: 5px;}
+}

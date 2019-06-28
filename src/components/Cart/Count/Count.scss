@@ -1,0 +1,51 @@
+.list{
+    background:#fff;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height:50px;
+    position:fixed;
+    bottom:50px;
+    width:100%;
+    .input{
+        width:50px;
+    }
+    .price{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-shrink:0;
+        p{
+            margin:0;
+            float:right;
+        }
+        p:nth-child(1){
+            padding-bottom: 5px;
+            span{
+                color:red;
+                font-size:18px;
+            }
+        }
+        p:nth-child(2){
+            color:#ccc;
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding-right: 10px;
+            margin:0;
+            i{
+                display: block;
+                padding-right: 10px;
+            }
+        }
+    }
+    .btn{
+        .count{
+            background:rgb(142, 195, 81);
+            padding-right: 20px;
+            width:120px;
+        }
+    }
+
+}

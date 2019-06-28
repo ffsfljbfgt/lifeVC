@@ -1,0 +1,18 @@
+.cont{
+    padding-top:10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    background:#fff;
+    margin-bottom: 60px;
+    p:nth-child(1){
+        font-size: 18px;
+    }
+    p:nth-child(2){
+        font-size: 15px;
+        color:#ccc;
+    }
+    p:nth-child(3){
+        font-size: 20px;
+        color:red;
+    }
+}
